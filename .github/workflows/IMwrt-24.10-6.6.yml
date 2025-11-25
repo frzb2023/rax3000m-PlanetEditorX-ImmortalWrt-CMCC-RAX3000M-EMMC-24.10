@@ -57,7 +57,7 @@ on:
         default: false
 
   schedule:
-    - cron: '0 16 * * *' # 北京时间每天00:00
+    - cron: '0 17 * * 1' # 北京时间每周一 01:00
 
 permissions:
   contents: write
